@@ -11,12 +11,12 @@ body {
 
 header {
   text-align: center;
-  padding: 160px;
+  padding: 140px;
 }
 
 header p {
   display: inline-block;
-  font-size: 48pt;
+  font-size: 42pt;
   font-weight: 700;
 }
 
@@ -27,22 +27,18 @@ header img {
 
 #content {
   text-align: center;
-  max-width: 1800px;
+  max-width: 1600px;
   margin: auto;
 }
 
 #content div {
-  margin: 0 15px 90px 15px;
-  padding: 10px;
   display: inline-block;
-}
-
-#content div:hover {
-  background: #fff;
+  margin: 0 12px 75px 12px;
+  padding: 10px;
 }
 
 #content div p {
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: right;
   margin-top: 10px;
 }

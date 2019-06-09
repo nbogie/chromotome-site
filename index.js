@@ -1,9 +1,9 @@
 import * as tome from 'chromotome';
 import Chance from 'chance';
 
-const width = 480;
-const size = 100;
-const padding = 12;
+const width = 360;
+const size = 80;
+const padding = 10;
 const height = size + 2 * padding;
 const chance = new Chance();
 
@@ -49,7 +49,7 @@ function displayColor(color, stroke, pos, width, ctx) {
   ctx.fillRect(pos, padding, width, size);
   if (stroke) {
     ctx.strokeStyle = stroke;
-    ctx.lineWidth = 5;
+    ctx.lineWidth = 4;
     ctx.strokeRect(pos, padding, width, size);
   }
 }
