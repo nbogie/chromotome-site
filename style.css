@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  color: #171516;
+}
+
+header {
+  text-align: center;
+  padding: 160px;
+}
+
+header p {
+  display: inline-block;
+  font-size: 48pt;
+  font-weight: 700;
+}
+
+header img {
+  width: 50px;
+  margin-left: 25px;
+}
+
+#content {
+  text-align: center;
+  max-width: 1800px;
+  margin: auto;
+}
+
+#content div {
+  margin: 0 15px 90px 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#content div:hover {
+  background: #fff;
+}
+
+#content div p {
+  font-size: 14pt;
+  text-align: right;
+  margin-top: 10px;
+}
+
+#content div canvas {
+  display: block;
+}
