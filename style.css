@@ -21,8 +21,15 @@ header p {
 }
 
 header img {
-  width: 40px;
-  margin-left: 25px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  opacity: 0.4;
+}
+
+header img:hover {
+  opacity: 1;
 }
 
 #content {
