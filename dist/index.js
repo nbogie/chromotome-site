@@ -105,6 +105,30 @@
       colors: ['#f05e3b', '#ebdec4', '#ffdb00'],
       stroke: '#ebdec4',
       background: '#161616'
+    },
+    {
+      name: 'moir',
+      colors: ['#a49f4f', '#d4501e', '#f7c558', '#ebbaa6'],
+      stroke: '#161716',
+      background: '#f7f4ef'
+    },
+    {
+      name: 'tokyo',
+      colors: ['#d13821', '#1d295b', '#51587d', '#e7e7e7'],
+      stroke: '#0b0e3e',
+      background: '#c7b09e'
+    },
+    {
+      name: 'bauhaus01',
+      colors: ['#ea542f', '#f19c1b', '#4f8ba9'],
+      stroke: '#221e1f',
+      background: '#e7dbc4'
+    },
+    {
+      name: 'bauhaus02',
+      colors: ['#bb2f2a', '#e9b500', '#0165b7'],
+      stroke: '#000000',
+      background: '#e5d6b8'
     }
   ];
 
@@ -506,6 +530,61 @@
       colors: ['#de3f1a', '#de9232', '#007158', '#e6cdaf', '#869679'],
       stroke: '#010006',
       background: '#7aa5a6'
+    },
+    {
+      name: 'kov_06',
+      colors: [
+        '#a87c2a',
+        '#bdc9b1',
+        '#f14616',
+        '#ecbfaf',
+        '#017724',
+        '#0e2733',
+        '#2b9ae9'
+      ],
+      stroke: '#292319',
+      background: '#dfd4c1'
+    },
+    {
+      name: 'kov_06b',
+      colors: [
+        '#d57846',
+        '#dfe0cc',
+        '#de442f',
+        '#e7d3c5',
+        '#5ec227',
+        '#302f35',
+        '#63bdb3'
+      ],
+      stroke: '#292319',
+      background: '#dfd4c1'
+    },
+    {
+      name: 'kov_07',
+      colors: ['#c91619', '#fdecd2', '#f4a000', '#4c2653'],
+      stroke: '#111',
+      background: '#89c2cd'
+    }
+  ];
+
+  var tsuchimochi = [
+    {
+      name: 'tsu_arcade',
+      colors: ['#4aad8b', '#e15147', '#f3b551', '#cec8b8', '#d1af84', '#544e47'],
+      stroke: '#251c12',
+      background: '#cfc7b9'
+    },
+    {
+      name: 'tsu_harutan',
+      colors: ['#75974a', '#c83e3c', '#f39140', '#e4ded2', '#f8c5a4', '#434f55'],
+      stroke: '#251c12',
+      background: '#cfc7b9'
+    },
+    {
+      name: 'tsu_akasaka',
+      colors: ['#687f72', '#cc7d6c', '#dec36f', '#dec7af', '#ad8470', '#424637'],
+      stroke: '#251c12',
+      background: '#cfc7b9'
     }
   ];
 
@@ -545,6 +624,24 @@
       colors: ['#271f47', '#e7ceb5'],
       stroke: '#271f47',
       background: '#cc2b1c'
+    },
+    {
+      name: 'dt07',
+      colors: ['#6a98a5', '#d24c18'],
+      stroke: '#efebda',
+      background: '#efebda'
+    },
+    {
+      name: 'dt08',
+      colors: ['#5d9d88', '#ebb43b'],
+      stroke: '#efebda',
+      background: '#efebda'
+    },
+    {
+      name: 'dt09',
+      colors: ['#052e57', '#de8d80'],
+      stroke: '#efebda',
+      background: '#efebda'
     }
   ];
 
@@ -558,6 +655,7 @@
     judson,
     iivonen,
     kovecses,
+    tsuchimochi,
     duotone
   );
 
