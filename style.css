@@ -42,6 +42,7 @@ header img:hover {
   display: inline-block;
   margin: 0 12px 75px 12px;
   padding: 10px;
+  cursor: pointer;
 }
 
 #content div p {

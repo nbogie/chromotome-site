@@ -40,7 +40,7 @@ function displayPalette(palette, content) {
   const container = document.createElement('div');
   container.appendChild(canvas);
   container.appendChild(paragraph);
-
+  container.addEventListener("click", () => copyPaletteToClipboardAsJSON(palette))
   content.appendChild(container);
 }
 
@@ -60,4 +60,8 @@ function createCanvas() {
   canvas.height = height + 30;
 
   return canvas;
+}
+
+function copyPaletteToClipboardAsJSON(palette) {
+  navigator.clipboard.writeText(JSON.stringify(palette, null, 2));
 }
