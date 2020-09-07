@@ -40,7 +40,7 @@ function displayPalette(palette, content) {
   const container = document.createElement('div');
   container.appendChild(canvas);
   container.appendChild(paragraph);
-  container.addEventListener("click", () => copyPaletteToClipboardAsJSON(palette))
+  container.addEventListener("click", () => copyPaletteToClipboardAsJSON(palette, container))
   content.appendChild(container);
 }
 
@@ -62,6 +62,14 @@ function createCanvas() {
   return canvas;
 }
 
-function copyPaletteToClipboardAsJSON(palette) {
+function copyPaletteToClipboardAsJSON(palette, containingElement) {
   navigator.clipboard.writeText(JSON.stringify(palette, null, 2));
+
+  //Pop up a little feedback.
+  const tipDiv = document.createElement("div");
+  tipDiv.classList.add("copied_notice");
+  tipDiv.innerText = "Copied!";
+  containingElement.appendChild(tipDiv);
+
+  setTimeout(() => { tipDiv.remove() }, 1200);
 }
